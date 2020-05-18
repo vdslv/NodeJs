@@ -4,8 +4,8 @@ const fs = require("fs");
 const changeFilePosition = (arrOfFiles, cameFrom, goingTo) => {
   arrOfFiles.forEach((file) => {
     fs.rename(
-      path.join(`${cameFrom}`, `${file}`),
-      path.join(`${goingTo}`, `${file}`),
+      path.join(cameFrom, file),
+      path.join(goingTo, file),
       (err) => {
         if (err) {
           console.log(err);
