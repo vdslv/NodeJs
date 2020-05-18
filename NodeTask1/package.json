@@ -1,0 +1,19 @@
+{
+  "name": "nodeokten",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdslv/NodeJs.git"
+  },
+  "author": "vdslv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdslv/NodeJs/issues"
+  },
+  "homepage": "https://github.com/vdslv/NodeJs#readme"
+}
