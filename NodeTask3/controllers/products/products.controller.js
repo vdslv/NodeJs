@@ -26,7 +26,7 @@ module.exports = {
     const { id, name, price } = req.body;
 
     productsService.createProduct({ id, name, price });
-    res.json('yspeh');
+    res.json();
   },
 
   deleteProduct: (req, res) => {
